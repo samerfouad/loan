@@ -30,8 +30,8 @@ spec:
   type: NodePort
   ports:
     # the port that this service should serve on
-    - port: 3001
-      targetPort: 3001
+    - port: 3002
+      targetPort: 3002
   # label keys and values that must match in order to receive traffic for this service
   selector:
     app: loan
